@@ -99,7 +99,6 @@ inquire.prompt([
     }
 
 ]).then((response) => {
-    // FS: The library method 'appendFile' creates a new file to store the content
     const invoke = set_up(
         response.title,
         response.description_title,
@@ -116,6 +115,7 @@ inquire.prompt([
         response.github,
         response.email
     );
+    // FS: The library method 'appendFile' creates a new file to store the content
     fs.appendFile('README.md',invoke,(err) => err ? console.error(err) : console.log('Commit logged!'));
 });
 
