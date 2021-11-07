@@ -74,7 +74,7 @@ KEY | VALUE
 
 ### Contributions
 Let me know if you are interested in upgrading the base code of the program. [Contact
-me via GitHub](https://github.com/ca2los), and commit your changes.
+me via GitHub](https://github.com/ca2los) to commit your changes.
 
 ### Testing
 I want to upgrade the code to make tables, quotes, code fragments, images and all the
